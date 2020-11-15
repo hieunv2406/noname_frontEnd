@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import Builder from "./Builder";
 import Dashboard from "./Dashboard";
 import DocsPage from "./docs/DocsPage";
+import EmployeePage from "./employee/EmployeePage";
 import { LayoutSplashScreen } from "../../../_metronic";
 
 const GoogleMaterialPage = lazy(() =>
@@ -30,6 +31,7 @@ export default function HomePage() {
         <Route path="/google-material" component={GoogleMaterialPage} />
         <Route path="/react-bootstrap" component={ReactBootstrapPage} />
         <Route path="/docs" component={DocsPage} />
+        <Route path="/employee" component={EmployeePage} />
         <Redirect to="/error/error-v1" />
       </Switch>
     </Suspense>

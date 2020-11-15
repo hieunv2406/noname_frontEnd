@@ -910,7 +910,37 @@ export default {
             page: "error/error-v6"
           }
         ]
+      },
+      { section: "Hiếu đẹp try" },
+      {
+        root: true,
+        title: "Documentation",
+        bullet: "dot",
+        icon: "flaticon2-file-1",
+        submenu: [
+          { title: "Quick Start", page: "docs/quick-start" },
+          { title: "Overview", page: "docs/overview" },
+          { title: "Deployment", page: "docs/deployment" },
+          { title: "Internationalization", page: "docs/i18n" },
+          { title: "Mock Backend", page: "docs/mock-backend" },
+          { title: "Create a Page", page: "docs/create-a-page" }
+        ]
+      },
+      {
+        root: true,
+        title: "Employee",
+        bullet: "dot",
+        icon: "flaticon2-file-1",
+        submenu: [
+          { title: "Employee List", page: "employee/employee-search" },
+          { title: "Test", page: "docs/overview" }
+          // { title: "Deployment", page: "docs/deployment" },
+          // { title: "Internationalization", page: "docs/i18n" },
+          // { title: "Mock Backend", page: "docs/mock-backend" },
+          // { title: "Create a Page", page: "docs/create-a-page" }
+        ]
       }
+
     ]
   }
 };
